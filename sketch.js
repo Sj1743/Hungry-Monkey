@@ -14,7 +14,10 @@ var HIT;
 function preload() {
 
   //images for background, banana and rock
-  backgroundImage = loadImage("jungle.jpg");
+  
+  /*You had given incorrect image name for the jungle. that was the error*/
+  
+  backgroundImage = loadImage("jungle2.jpg");
   bananaImage = loadImage("Banana.png");
   rockImage = loadImage("stone.png");
   monkeyStanding = loadImage("Monkey_01.png");
@@ -246,3 +249,9 @@ function spawnRocks() {
     rock.setCollider("circle", 0, 0, 5);
   }
 }
+
+
+/*
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.10.2/p5.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.10.2/addons/p5.sound.min.js"></script>
+*/
